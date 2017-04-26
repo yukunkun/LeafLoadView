@@ -138,7 +138,7 @@ public class LeafLoadView extends View {
         mPaint.reset();
         mPaint.setAntiAlias(true);
         mPaint.setColor(mSeekColor);
-        mCurrentProgressPosition = (mWidth-mHeight/2) * progress / mTotalProgress;
+        mCurrentProgressPosition = (mWidth/*-mHeight/2*/) * progress / mTotalProgress;
         mRectSeek=new RectF(mBorderWidth,mBorderWidth,mHeight-mBorderWidth,mHeight-mBorderWidth);
         //判断在圆弧内部
         if(mCurrentProgressPosition<=mHeight-mBorderWidth){
@@ -150,7 +150,7 @@ public class LeafLoadView extends View {
             canvas.drawArc(mRectSeek,mStartAngle,mAngle*2,mCircleStyle,mPaint);
         }else { //判断在圆弧外了,需要填满圆弧,并且还要填矩形
             canvas.drawArc(mRectSeek,90,180,mCircleStyle,mPaint);
-            seekRect=new Rect(mHeight/2,mBorderWidth,mCurrentProgressPosition,mHeight-mBorderWidth);
+            seekRect=new Rect(mHeight/2,mBorderWidth,mCurrentProgressPosition-mHeight/2,mHeight-mBorderWidth);
             canvas.drawRect(seekRect,mPaint);
         }
         /***********seek over****************/
