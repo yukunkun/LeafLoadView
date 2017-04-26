@@ -1,4 +1,4 @@
-### LeafLoadView 一个酷炫的加载精进度
+### LeafLoadView 一个酷炫的加载进进度
 #### 之前看到了一个很炫的动态图,是一个加载的进度条
 ![图片](https://raw.githubusercontent.com/Ajian-studio/GALeafLoading/master/raw/leaf_loading_readme.gif)
 #### 确实挺好看的,有一篇博客做了一个view,几乎一模一样的呈现了和动态图一样的效果
