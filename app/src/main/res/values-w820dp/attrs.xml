@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="backgroundColor" format="color" />
+    <attr name="borderColor" format="color" />
+    <attr name="seekColor" format="color" />
+    <attr name="circleLeftStyle" format="boolean" />
+    <attr name="rotationSpeed" format="integer" />
+    <attr name="borderWidth" format="integer" />
+    <attr name="circleWidth" format="integer" />
+    <attr name="circleColor" format="color"/>
+    <!--<attr name="imageScaleType">
+        <enum name="fillXY" value="0" />
+        <enum name="center" value="1" />
+    </attr>-->
+
+    <declare-styleable name="leafView">
+        <attr name="backgroundColor" />
+        <attr name="borderColor" />
+        <attr name="seekColor" />
+        <attr name="circleLeftStyle" />
+        <attr name="rotationSpeed" />
+        <attr name="borderWidth" />
+        <attr name="circleWidth" />
+        <attr name="circleColor" />
+    </declare-styleable>
+</resources>
