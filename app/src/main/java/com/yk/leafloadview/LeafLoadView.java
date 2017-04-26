@@ -68,7 +68,6 @@ public class LeafLoadView extends View {
     public LeafLoadView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context,attrs,0);
-
     }
 
     public LeafLoadView(Context context, AttributeSet attrs, int defStyleAttr) {
