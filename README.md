@@ -54,8 +54,8 @@
      
 #### handler 里面的代码
 
-     Handler mHandler = new Handler() {
-        public void handleMessage(Message msg) {
+        Handler mHandler = new Handler() {
+           public void handleMessage(Message msg) {
             switch (msg.what) {
                 case 1:
                     progress = progress + 1;
