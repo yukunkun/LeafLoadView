@@ -19,6 +19,54 @@
 效果图如下
 ![1493335149523.mp4_1493336134.gif](http://upload-images.jianshu.io/upload_images/3001453-19145f646c5844c8.gif?imageMogr2/auto-orient/strip)
 ![S70427-11471776.jpg](http://upload-images.jianshu.io/upload_images/3001453-6d2d8291fa120f53.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) ![](http://upload-images.jianshu.io/upload_images/3001453-9431f1f5bf717da9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) ![](http://upload-images.jianshu.io/upload_images/3001453-6fe04582ea517d2f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+#### 使用方法很简单
+#### 布局如下
+    <RelativeLayout
+        android:layout_width="302dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    <com.yk.leafloadview.LeafLoadView
+        android:id="@+id/leafview"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        yk:backgroundColor="#fdf0c8"
+        yk:borderColor="#fddd84"
+        yk:seekColor="#fcc11d"
+        yk:circleColor="#ffffff"
+        yk:borderWidth="18"
+        yk:circleWidth="8"
+        yk:rotationSpeed="200"
+        yk:circleLeftStyle="false"/>
+    <ImageView
+        android:id="@+id/fan_p"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/fengshan" />
+#### activity中
+     mLeafLoadView = (LeafLoadView) findViewById(R.id.leafview);
+     ImageView imageView= (ImageView) findViewById(R.id.fan_p);
+     mLeafLoadView.setTotalProgress(totalPro);
+     mHandler.sendEmptyMessageDelayed(1,0);
+     
+#### handler 里面的代码
+    Handler mHandler = new Handler() {
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case 1:
+                    progress = progress + 1;
+                    mLeafLoadView.setPrograss(progress);
+                    mHandler.sendEmptyMessageDelayed(1,800); //800ms发送一次
+                    break;
+                default:
+                    break;
+            }
+        }
+    }; 
+     
+     
 
 
