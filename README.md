@@ -53,7 +53,8 @@
      mHandler.sendEmptyMessageDelayed(1,0);
      
 #### handler 里面的代码
-    Handler mHandler = new Handler() {
+
+     Handler mHandler = new Handler() {
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case 1:
