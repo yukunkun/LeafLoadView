@@ -54,20 +54,19 @@
      
 #### handler 里面的代码
 
-        Handler mHandler = new Handler() {
-           public void handleMessage(Message msg) {
+          Handler mHandler = new Handler() {
+            public void handleMessage(Message msg) {
             switch (msg.what) {
                 case 1:
                     progress = progress + 1;
-                    mLeafLoadView.setPrograss(progress);
-                    mHandler.sendEmptyMessageDelayed(1,800); //800ms发送一次
+                    mLeafLoadView.setPrograss(progress);
+                    mHandler.sendEmptyMessageDelayed(1,800); //800ms发送一次
                     break;
                 default:
                     break;
             }
         }
-    }; 
-     
+    };
      
 
 
