@@ -18,7 +18,7 @@
 |circleColor|圆形的外边框颜色|
 效果图如下
 ![1493335149523.mp4_1493336134.gif](http://upload-images.jianshu.io/upload_images/3001453-19145f646c5844c8.gif?imageMogr2/auto-orient/strip)
-![S70427-11471776.jpg](http://upload-images.jianshu.io/upload_images/3001453-6d2d8291fa120f53.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)![](http://upload-images.jianshu.io/upload_images/3001453-9431f1f5bf717da9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)![](http://upload-images.jianshu.io/upload_images/3001453-6fe04582ea517d2f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![S70427-11471776.jpg](http://upload-images.jianshu.io/upload_images/3001453-6d2d8291fa120f53.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) ![](http://upload-images.jianshu.io/upload_images/3001453-9431f1f5bf717da9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) ![](http://upload-images.jianshu.io/upload_images/3001453-6fe04582ea517d2f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
