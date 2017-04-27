@@ -17,6 +17,6 @@
 |circleWidth|圆形的外边框宽度|
 |circleColor|圆形的外边框颜色|
 效果图如下
-![](http://upload-images.jianshu.io/upload_images/3001453-22114a513f7bc663.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![](http://upload-images.jianshu.io/upload_images/3001453-9431f1f5bf717da9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![](http://upload-images.jianshu.io/upload_images/3001453-6fe04582ea517d2f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/3001453-22114a513f7bc663.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)&nbsp![](http://upload-images.jianshu.io/upload_images/3001453-9431f1f5bf717da9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)&nbsp![](http://upload-images.jianshu.io/upload_images/3001453-6fe04582ea517d2f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
