@@ -45,7 +45,7 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="7dp"
-        android:src="@drawable/fengshan" />
+        android:src="@drawable/fengshan" />
 #### activity中
      mLeafLoadView = (LeafLoadView) findViewById(R.id.leafview);
      ImageView imageView= (ImageView) findViewById(R.id.fan_p);
